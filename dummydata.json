@@ -1,0 +1,51 @@
+{
+  "customerDetails": {
+    "name": "Akshat",
+    "address": "Bangalore",
+    "phone": "1234567890",
+    "cardNumber": "454546792834XXXX"
+  },
+  "summary": {
+    "statementDate": "01-09-2022",
+    "statementDuration": "01-08-2022 to 01-09-2022",
+    "dueDate": "16-10-2022",
+    "totalDue": "15000",
+    "minimumDue": "750",
+    "creditLimit": "50000",
+    "availableCreditLimit": "45000",
+    "availableCashLimit": "40000"
+  },
+  "calculation": {
+    "openingBalance": "0",
+    "debit": "17000",
+    "financeCharge": "0",
+    "credit": "2000",
+    "totalDue": "15000"
+  },
+  "transactions": [
+    {
+      "date": "10-08-2022",
+      "descriptions": "Amazon India",
+      "debit": "9000",
+      "credit": "0"
+    },
+    {
+      "date": "14-08-2022",
+      "descriptions": "Amazon India",
+      "debit": "6000",
+      "credit": "0"
+    },
+    {
+      "date": "17-08-2022",
+      "descriptions": "Amazon India",
+      "debit": "0",
+      "credit": "2000"
+    },
+    {
+      "date": "19-08-2022",
+      "descriptions": "Amazon India",
+      "debit": "2000",
+      "credit": "0"
+    }
+  ]
+}

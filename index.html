@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Statement</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-section">
+        <div class="customer-details">
+            <h2>Customer Details</h2>
+            <p id="fullName">Full Name:</p>
+            <p id="address">Address:</p>
+            <p id="phone">Phone:</p>
+            <p id="cardNumber">Card Number:</p>
+        </div>
+        <div class="logo">
+            <!-- Bank logo will be fetched from a static asset -->
+        </div>
+    </div>
+    <header>
+        <h1>Niyo Global Credit Card Statement</h1>
+    </header>
+    
+    <div class="summary">
+        <h2>Statement Summary</h2>
+        <div class="summary-row">
+            <div class="label">Statement Date:</div>
+            <div class="value" id="statementDate"></div>
+            <div class="label">Statement Duration:</div>
+            <div class="value" id="statementDuration"></div>
+        </div>
+        <div class="summary-row">
+            <div class="label">Payment Due Date:</div>
+            <div class="value" id="dueDate"></div>
+            <div class="label">Total Amount Due:</div>
+            <div class="value" id="totalDue"></div>
+            <div class="label">Minimum Amount Due:</div>
+            <div class="value" id="minimumDue"></div>
+        </div>
+        <div class="summary-row">
+            <div class="label">Credit Limit:</div>
+            <div class="value" id="creditLimit"></div>
+            <div class="label">Available Credit Limit:</div>
+            <div class="value" id="availableCreditLimit"></div>
+            <div class="label">Available Cash Limit:</div>
+            <div class="value" id="availableCashLimit"></div>
+        </div>
+    </div>
+
+    <div class="calculation-summary">
+        <h2>Calculation Summary</h2>
+        <div class="summary-row">
+            <div class="label-value-pair">
+                <div class="label">Opening Balance:</div>
+                <div class="value" id="openingBalance"></div>
+            </div>
+            <div class="label-value-pair">
+                <div class="label">Purchase/Debits:</div>
+                <div class="value" id="debit"></div>
+            </div>
+            <div class="label-value-pair">
+                <div class="label">Finance Charges:</div>
+                <div class="value" id="financeCharge"></div>
+            </div>
+            <div class="label-value-pair">
+                <div class="label">Payment/Credit:</div>
+                <div class="value" id="credit"></div>
+            </div>
+            <div class="label-value-pair">
+                <div class="label">Total Amount Due:</div>
+                <div class="value" id="totalDueCalc"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

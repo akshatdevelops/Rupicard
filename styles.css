@@ -1,0 +1,85 @@
+body {
+    background-image: url("bg.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 40%;
+    height: 100px;
+    background-image: url("logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.customer-details {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.summary {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.summary h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.calculation-summary {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.calculation-summary h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.label-value-pair {
+    display: flex;
+}
+
+.label,
+.value {
+    flex-basis: 50%;
+}
+
+.label {
+    font-weight: bold;
+}
